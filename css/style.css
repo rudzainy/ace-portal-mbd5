@@ -1,0 +1,32 @@
+html, body {
+  font-family: 'Ubuntu', 'Helvetica', sans-serif;
+}
+
+.table-rge55 {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+  
+/* top-left border-radius */
+.table-rge55 tr:first-child th:first-child {
+  border-top-left-radius: 0.5rem !important;
+}
+
+/* top-right border-radius */
+.table-rge55 tr:first-child th:last-child {
+  border-top-right-radius: 0.5rem !important;
+}
+
+/* bottom-left border-radius */
+.table-rge55 tr:last-child td:first-child {
+  border-bottom-left-radius: 0.5rem !important;
+}
+
+/* bottom-right border-radius */
+.table-rge55 tr:last-child td:last-child {
+  border-bottom-right-radius: 0.5rem !important;
+}
+
+#rge55-agenda-card {
+  margin-top: -150px;
+}
