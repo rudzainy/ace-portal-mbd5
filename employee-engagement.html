@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Employee Engagement | ACE Portal</title>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="ACE Portal">
+    <link rel="apple-touch-icon-precomposed" href="img/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto & Ubuntu-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="pb-5">
+    <!-- Start your project here-->
+
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+        
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Navbar brand -->
+              <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                <img
+                  src="img/ace-portal-logo.svg"
+                  height="30"
+                  alt="ACE Portal Logo"
+                  loading="lazy"
+                />
+              </a>
+              <!-- Left links -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">RGE55</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hackathon2023.html">Hackathon 2023</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Employee Engagement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="human-resource.html">Human Resource</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="patent-filing.html">Patent Filing</a>
+                </li>
+              </ul>
+              <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+              <!-- Icon -->
+              <a class="text-reset me-3" href="#">
+                <i class="fas fa-server"></i>
+              </a>
+        
+              <!-- Notifications -->
+              <div class="dropdown">
+                <a
+                  class="text-reset me-3 dropdown-toggle hidden-arrow"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-bell"></i>
+                  <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Some news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Avatar -->
+              <div class="dropdown">
+                <a
+                  class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                  href="#"
+                  id="navbarDropdownMenuAvatar"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="rounded-circle"
+                    height="25"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                  />
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownMenuAvatar"
+                >
+                  <li>
+                    <h6 class="dropdown-header">Hi Rudzainy!</h6>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">My profile</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Settings</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Logout</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Right elements -->
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+  
+    <!-- Jumbotron -->
+    <div class="p-5 bg-primary text-white">
+      <h1 class="mb-3">Employee Engagement</h1>
+      <h4 class="mb-3">Engaging employees</h4>
+      <div class="datatable"></div>
+    </div>
+    <!-- Jumbotron -->
+    </header>
+
+
+    <div class="container py-5">
+      <h2>Activities Calendar</h2>
+      <p>Here is where I will place a catchy subtext to continue subtly direct user's eye movement towards contents below the H2 subtitle above.</p>
+      <div class="d-flex flex-row-reverse mb-3">  
+        <div class="btn-group shadow-0" role="group" aria-label="Toggle view">
+          <button type="button" class="btn btn-outline-secondary" data-mdb-color="dark"><i class="fas fa-lg fa-list"></i></button>
+          <button type="button" class="btn btn-primary" data-mdb-color="dark"><i class="fas fa-lg fa-border-all"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="img/ee/activity.png" class="card-img-top" alt="Fissure in Sandstone"/>
+            <div class="card-body">
+              <h5 class="card-title">Team Monthly Lunch: Haloween 🎃</h5>
+              <p class="card-text">Spooky bloody themed lunch. Brain buffet starts at midnight GMT+8 and will last until sunrise.</p>
+              <a href="#!" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="img/ee/activity.png" class="card-img-top" alt="Fissure in Sandstone"/>
+            <div class="card-body">
+              <h5 class="card-title">2023 Barcelona Company Trip <span class="badge badge-info rounded-pill">Updated 1.9.2023</span>
+              </h5>
+              <p class="card-text">Once in a year opportunity. Book seats for you and your loved ones.</p>
+              <a href="#!" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="img/ee/activity.png" class="card-img-top" alt="Fissure in Sandstone"/>
+            <div class="card-body">
+              <h5 class="card-title">Gotong Royong with CDO</h5>
+              <p class="card-text">CDO invites everyone to join a <i>gotong-royong</i> session at Averis Tower 2 @ KL office.</p>
+              <a href="#!" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container py-5">
+  <h2>Onboarding & Offboarding</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Just came on board!</h5>
+          <p class="card-text">
+            
+            <img
+                src="img/rge55/abhishek.png"
+                alt=""
+                style="width: 45px; height: 45px"
+                class="rounded-circle"
+                />
+                <img
+                    src="img/rge55/abhishek.png"
+                    alt=""
+                    style="width: 45px; height: 45px"
+                    class="rounded-circle"
+                    />
+                    <img
+                        src="img/rge55/abhishek.png"
+                        alt=""
+                        style="width: 45px; height: 45px"
+                        class="rounded-circle"
+                        />
+                        <img
+                            src="img/rge55/abhishek.png"
+                            alt=""
+                            style="width: 45px; height: 45px"
+                            class="rounded-circle"
+                            />
+                            <img
+                                src="img/rge55/abhishek.png"
+                                alt=""
+                                style="width: 45px; height: 45px"
+                                class="rounded-circle"
+                                />
+          </p>
+          <a href="#" class="btn btn-primary">Say hi in Lark</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Spreading their wings!</h5>
+          <p class="card-text">
+            <img
+                src="img/rge55/abhishek.png"
+                alt=""
+                style="width: 45px; height: 45px"
+                class="rounded-circle"
+                />
+                <img
+                    src="img/rge55/abhishek.png"
+                    alt=""
+                    style="width: 45px; height: 45px"
+                    class="rounded-circle"
+                    />
+                    <img
+                        src="img/rge55/abhishek.png"
+                        alt=""
+                        style="width: 45px; height: 45px"
+                        class="rounded-circle"
+                        />
+          </p>
+          <a href="#" class="btn btn-primary">Say bye in Lark</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container-fluid bg-light py-5">
+      <div class="container">
+      <h2>Employee Guidebook</h2>
+      <div class="card">
+        <div class="card-header">
+      <!-- Tabs navs -->
+<ul class="nav nav-pills nav-justified mb-3 bg-white" id="ex1" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link active"
+      id="ex3-tab-1"
+      data-mdb-toggle="tab"
+      href="#ex3-tabs-1"
+      role="tab"
+      aria-controls="ex3-tabs-1"
+      aria-selected="true"
+      >Business Trip 101</a
+    >
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link"
+      id="ex3-tab-2"
+      data-mdb-toggle="tab"
+      href="#ex3-tabs-2"
+      role="tab"
+      aria-controls="ex3-tabs-2"
+      aria-selected="false"
+      >Team Lunch 101</a
+    >
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link"
+      id="ex3-tab-3"
+      data-mdb-toggle="tab"
+      href="#ex3-tabs-3"
+      role="tab"
+      aria-controls="ex3-tabs-3"
+      aria-selected="false"
+      >Claims 101</a
+    >
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link"
+      id="ex3-tab-4"
+      data-mdb-toggle="tab"
+      href="#ex3-tabs-4"
+      role="tab"
+      aria-controls="ex3-tabs-4"
+      aria-selected="false"
+      >Terms Glossary</a
+    >
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link"
+      id="ex3-tab-5"
+      data-mdb-toggle="tab"
+      href="#ex3-tabs-5"
+      role="tab"
+      aria-controls="ex3-tabs-5"
+      aria-selected="false"
+      >Company Email 101</a
+    >
+  </li>
+</ul>
+</div>
+<!-- Tabs navs -->
+<div class="card-body">
+<!-- Tabs content -->
+<div class="tab-content" id="ex2-content">
+  <div
+    class="tab-pane fade show active"
+    id="ex3-tabs-1"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-1"
+  >
+    Business Trip 101
+  </div>
+  <div
+    class="tab-pane fade"
+    id="ex3-tabs-2"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-2"
+  >
+  Team Lunch 101
+  </div>
+  <div
+    class="tab-pane fade"
+    id="ex3-tabs-3"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-3"
+  >
+  Claims 101
+  </div>
+  <div
+    class="tab-pane fade"
+    id="ex3-tabs-4"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-4"
+  >
+  Terms Glossary
+  </div>
+  <div
+    class="tab-pane fade"
+    id="ex3-tabs-5"
+    role="tabpanel"
+    aria-labelledby="ex3-tab-5"
+  >
+    Company Email 101
+  </div>
+</div>
+<!-- Tabs content -->
+</div>
+</div>
+</div>
+    </div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <img src="img/ace-portal-logo.svg" alt="ACE Portal logo">
+          </h6>
+          <p>
+            ACE Portal is developed and maintained by ACE Digital. For feedbacks or inquiries, please contact support@aceresources.biz
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Events
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">RGE55</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Hackathon 2023</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Employees Engagement
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Activities Calendar</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Onboarding & Offboarding</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Guidebook</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Human Resource
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Staff List</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Seat Map</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Hiring & Resignation Updates</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Patent Filing
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Eligibility criteria</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Claiming process</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Winners list</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © <script>document.write(new Date().getFullYear())</script> ACE Resources
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
