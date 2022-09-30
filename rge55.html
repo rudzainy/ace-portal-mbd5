@@ -183,17 +183,17 @@
         class="p-5 text-center bg-image"
         style="
           background-image: url('img/rge55/RGE55-bg-tile.png') repeat space;
-          height: 80vh;
+          height: 90vh;
         "
       >
-        <div class="mask" style="background-color: rgba(26, 57, 92, 0.6);">
+        <div class="mask" style="background-color: rgba(26, 57, 92, 1);">
           <div class="d-flex justify-content-center align-items-center h-100">
             <div class="row">
               <div class="col">
                 <img src="img/rge55-logo.svg" alt="RGE55 logo" />
               </div>
               <div class="col">
-                <div class="ratio ratio-16x9" style="min-width: 450px; min-height: 200px;">
+                <div class="ratio ratio-16x9" style=" width: 300px; min-height: 100px;">
                   <iframe
                     src="https://www.youtube.com/embed/vlDzYIIOYmM"
                     title="RGE55 Introduction Video"
@@ -209,9 +209,10 @@
     </header>
     
 
-<div class="container my-5 pb-5">
+<div class="container-fluid py-5" id="rge55-agenda-container">
+  <div class="container">
   <!-- Content here -->
-  <div class="card" id="rge55-agenda-card">
+  <div class="card overflow-x-scroll" id="rge55-agenda-card">
       
       <h2 class="card-header mt-5 text-center border-0" id="workshop-agenda">Workshop Agenda</h2>
 
@@ -219,8 +220,8 @@
       <p class="mb-4 text-center">The goal of this workshop is to facilitate an understanding on how state-of-the-art digital technologies can find applicability in both cross-functional and cross-industrial case studies, meanwhile discover opportunities for novel digital projects within our business.</p>
 
       <div class="row mb-3 text-center">
-        <div class="col">
-          <div class="card border border-danger shadow-3">
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card border border-danger shadow-3 h-100">
             <div class="card-header bg-danger text-white">
               <p class="mb-1">Venue</p>
             </div>
@@ -229,8 +230,8 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card border border-danger shadow-3">
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card border border-danger shadow-3 h-100">
             <div class="card-header bg-danger text-white">
               <p class="mb-1">Date</p>
           </div>
@@ -239,8 +240,8 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card border border-danger shadow-3">
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card border border-danger shadow-3 h-100">
             <div class="card-header bg-danger text-white">
               <p class="mb-1">Time</p>
           </div>
@@ -416,58 +417,61 @@
   </div>
   </div>
 </div>
+</div>
 
-<div class="container my-5">
+<div class="container-fluid py-5" id="rge55-projects">
+  <div class="container">
   <h2 class="text-center mb-5">Projects</h2>
   <div class="row">
-    <div class="col-sm-4">
-      <div class="card">
+    <div class="col-sm-4 mb-3">
+      <div class="card h-100">
         <img src="img/rge55/project-dmp.png" class="card-img-top" alt="Fissure in Sandstone"/>
-        <div class="card-body">
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">Digital Manufacturing Platform</h5>
           <p class="card-text">Manual data collection and differences in reporting by various functional units are hindering meaningful performance analysis and benchmarking.</p>
-          <a href="#!" class="btn btn-primary">Read more</a>
+          <a href="#!" class="btn btn-primary mt-auto">Read more</a>
         </div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="card">
+    <div class="col-sm-4 mb-3">
+      <div class="card h-100">
         <img src="img/rge55/project-itrack.png" class="card-img-top" alt="Fissure in Sandstone"/>
-        <div class="card-body">
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">iTrack</h5>
           <p class="card-text">Visibility and transparency in transportation have become one of the top digital transformation agenda in many organisations.</p>
-          <a href="#!" class="btn btn-primary">Read more</a>
+          <a href="#!" class="btn btn-primary mt-auto">Read more</a>
         </div>
       </div>
     </div>
-    <div class="col-sm-4">
-      <div class="card">
+    <div class="col-sm-4 mb-3">
+      <div class="card h-100">
         <img src="img/rge55/project-plantation.png" class="card-img-top" alt="Fissure in Sandstone"/>
-        <div class="card-body">
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">Plantation Camera</h5>
-          <p class="card-text">Plantation management is at the heart of APRIL Group's business and operations.</p>
-          <a href="#!" class="btn btn-primary">Read more</a>
+          <p class="card-text">Plantation management is at the heart of APRIL Group's business and operations.</p>        
+          <a href="#!" class="btn btn-primary mt-auto">Read more</a>
         </div>
       </div>
     </div>
   </div>
+  </div>
 </div>
 
-<div class="container">
-  <h2>Speakers</h2>
+<div class="container my-5">
+  <h2 class="text-center">Speakers</h2>
   <div class="accordion accordion-borderless" id="accordionFlushExampleX">
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOneX">
         <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
           data-mdb-target="#flush-collapseOneX" aria-expanded="false" aria-controls="flush-collapseOneX">
-          <div>
             
-            <img
-                src="img/rge55/abhishek.png"
-                alt=""
-                style="width: 45px; height: 45px"
-                class="rounded-circle"
-                />
+          <img
+              src="img/rge55/speaker-liufengyuan.png"
+              alt=""
+              style="width: 150px; height: 150px"
+              class="rounded-circle me-3"
+              />
+          <div>
             <h5>Liu Feng Yuan</h5>
             <p class="fw-normal mb-0">Vice President of Business Development, Aicadium</p>
           </div>
@@ -488,14 +492,13 @@
       <h2 class="accordion-header" id="flush-headingTwoX">
         <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
           data-mdb-target="#flush-collapseTwoX" aria-expanded="false" aria-controls="flush-collapseTwoX">
-          
+          <img
+            src="img/rge55/speaker-charlsng.png"
+            alt=""
+            style="width: 150px; height: 150px"
+            class="rounded-circle me-3"
+          />
           <div>
-            <img
-                src="img/rge55/abhishek.png"
-                alt=""
-                style="width: 45px; height: 45px"
-                class="rounded-circle"
-                />
             <h5>Charles Ng</h5>
             <p class="fw-normal mb-0">Executive Vice President of International Business and Key Accounts, Ensign</p>
           </div>
@@ -506,7 +509,7 @@
         <div class="accordion-body">
           <p>Charles Ng is the Executive Vice President of International Business and Key Accounts at Ensign InfoSecurity.</p>
 
-          <p>In his role, he drives the growth of Ensign’s cyber security services in the region. This includes providing the Boards and Management of multinational companies with advice, as well as bespoke solutions to help resolve their cybersecurity challenges.</p>
+          <p>In his role, he drives the growth of Ensign's cyber security services in the region. This includes providing the Boards and Management of multinational companies with advice, as well as bespoke solutions to help resolve their cybersecurity challenges.</p>
 
           <p>Prior to this, Charles started and headed the Booz Allen Hamilton Cyber Security practice in Asia Pacific. While serving in the government, Charles was involved in the formation of the Cyber Security Agency of Singapore.</p>
         </div>
@@ -516,14 +519,14 @@
       <h2 class="accordion-header" id="flush-headingThreeX">
         <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
           data-mdb-target="#flush-collapseThreeX" aria-expanded="false" aria-controls="flush-collapseThreeX">
+          <img
+              src="img/rge55/speaker-eugeneyeo.png"
+              alt=""
+              style="width: 150px; height: 150px"
+              class="rounded-circle me-3"
+              />
           
           <div>
-            <img
-                src="img/rge55/abhishek.png"
-                alt=""
-                style="width: 45px; height: 45px"
-                class="rounded-circle"
-                />
             <h5>Eugene Yeo</h5>
             <p class="fw-normal mb-0">Digital Transformation Advisor, Data Stream Digital (DST)</p>
           </div>
