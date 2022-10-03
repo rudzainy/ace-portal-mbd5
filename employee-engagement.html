@@ -41,6 +41,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- Custom Components -->
+    <script src="js/components/forum.js" type="text/javascript" defer></script>
     <script src="js/components/footer.js" type="text/javascript" defer></script>
   </head>
   <body>
@@ -188,243 +189,384 @@
     </header>
 
 
+
+
+
+
     <div class="container py-5">
       <h2 id="activities-calendar">Activities Calendar</h2>
       <p>Here is where I will place a catchy subtext to continue subtly direct user's eye movement towards contents below the H2 subtitle above.</p>
-      <div class="d-flex flex-row-reverse mb-3">  
-        <div class="btn-group shadow-0" role="group" aria-label="Toggle view">
-          <button type="button" class="btn btn-outline-secondary" data-mdb-color="dark"><i class="fas fa-lg fa-list"></i></button>
-          <button type="button" class="btn btn-primary" data-mdb-color="dark"><i class="fas fa-lg fa-border-all"></i></button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="card h-100">
-            <img src="https://thearchitecturedesigns.com/wp-content/uploads/2019/09/helloween-office9.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
-            <div class="card-body">
-              <h5 class="card-title">Team Q3 Lunch: Haloween 🎃</h5>
-              <p class="card-text">Spooky bloody themed lunch. Brain buffet starts at midnight GMT+8 and will last until sunrise.</p>
-              <a href="#!" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card h-100">
-            <img src="https://content.tui.co.uk/adamtui/2022_4/7_10/7925990f-b3dd-46d6-82ee-ae7000aa8ef8/LOC_000373_shutterstock_2080319242WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)" class="card-img-top" alt="Fissure in Sandstone"/>
-            <div class="card-body">
-              <h5 class="card-title">2023 Barcelona Company Trip <span class="badge badge-info rounded-pill">Updated 1.9.2023</span>
-              </h5>
-              <p class="card-text">Once in a year opportunity. All expenses paid! Book seats for you and ALL your loved ones.</p>
-              <a href="#!" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card h-100">
-            <img src="https://image.shutterstock.com/image-photo/closeup-asian-female-worker-cleaning-260nw-2192911347.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
-            <div class="card-body">
-              <h5 class="card-title">Gotong Royong with CDO</h5>
-              <p class="card-text">CDO invites everyone to join a <i>gotong-royong</i> session at Averis Tower 2 @ KL office.</p>
-              <a href="#!" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      
+      
+      <ul class="nav nav-tabs mb-3 flex-row-reverse" id="myTab0" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="list-view-tab0"
+            data-mdb-toggle="tab"
+            data-mdb-target="#list-view0"
+            type="button"
+            role="tab"
+            aria-controls="list-view"
+            aria-selected="true"
+          >
+            <i class="fas fa-lg fa-list"></i>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="grid-view-tab0"
+            data-mdb-toggle="tab"
+            data-mdb-target="#grid-view0"
+            type="button"
+            role="tab"
+            aria-controls="grid-view"
+            aria-selected="false"
+          >
+            <i class="fas fa-lg fa-border-all"></i>
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent0">
+        <div
+          class="tab-pane fade show active"
+          id="list-view0"
+          role="tabpanel"
+          aria-labelledby="list-view-tab0"
+        >
 
-<div class="container py-5">
-  <h2 id="onboarding-offboarding">Onboarding & Offboarding</h2>
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Just came on board!</h5>
-          <p class="card-text">
-            
-            <img
-                src="img/rge55/abhishek.png"
-                alt=""
-                style="width: 45px; height: 45px"
-                class="rounded-circle"
-                />
-                <img
-                    src="img/rge55/abhishek.png"
-                    alt=""
-                    style="width: 45px; height: 45px"
-                    class="rounded-circle"
-                    />
-                    <img
-                        src="img/rge55/abhishek.png"
-                        alt=""
-                        style="width: 45px; height: 45px"
-                        class="rounded-circle"
-                        />
-                        <img
-                            src="img/rge55/abhishek.png"
-                            alt=""
-                            style="width: 45px; height: 45px"
-                            class="rounded-circle"
-                            />
-                            <img
-                                src="img/rge55/abhishek.png"
-                                alt=""
-                                style="width: 45px; height: 45px"
-                                class="rounded-circle"
-                                />
-          </p>
-          <a href="#" class="btn btn-primary">Say hi in Lark</a>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img
+                src="https://thearchitecturedesigns.com/wp-content/uploads/2019/09/helloween-office9.jpg"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">Team Q3 Lunch: Haloween 🎃</h5>
+                <p class="card-text">
+                  Spooky bloody themed lunch. Brain buffet starts at midnight GMT+8 and will last until sunrise.
+                </p>
+                <p class="card-text">
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img
+                src="https://content.tui.co.uk/adamtui/2022_4/7_10/7925990f-b3dd-46d6-82ee-ae7000aa8ef8/LOC_000373_shutterstock_2080319242WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">2023 Barcelona Company Trip <span class="badge badge-info rounded-pill">Updated 1.9.2023</span></h5>
+                <p class="card-text">
+                  Once in a year opportunity. All expenses paid! Book seats for you and ALL your loved ones.
+                </p>
+                <p class="card-text">
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img
+                src="https://image.shutterstock.com/image-photo/closeup-asian-female-worker-cleaning-260nw-2192911347.jpg"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">Gotong Royong with CDO</h5>
+                <p class="card-text">
+                  CDO invites everyone to join a <i>gotong-royong</i> session at Averis Tower 2 @ KL office.
+                </p>
+                <p class="card-text">
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img
+                src="https://thearchitecturedesigns.com/wp-content/uploads/2019/09/helloween-office9.jpg"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">Team Q3 Lunch: Haloween 🎃</h5>
+                <p class="card-text">
+                  Spooky bloody themed lunch. Brain buffet starts at midnight GMT+8 and will last until sunrise.
+                </p>
+                <p class="card-text">
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img
+                src="https://content.tui.co.uk/adamtui/2022_4/7_10/7925990f-b3dd-46d6-82ee-ae7000aa8ef8/LOC_000373_shutterstock_2080319242WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">2023 Barcelona Company Trip <span class="badge badge-info rounded-pill">Updated 1.9.2023</span></h5>
+                <p class="card-text">
+                  Once in a year opportunity. All expenses paid! Book seats for you and ALL your loved ones.
+                </p>
+                <p class="card-text">
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img
+                src="https://image.shutterstock.com/image-photo/closeup-asian-female-worker-cleaning-260nw-2192911347.jpg"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title">Gotong Royong with CDO</h5>
+                <p class="card-text">
+                  CDO invites everyone to join a <i>gotong-royong</i> session at Averis Tower 2 @ KL office.
+                </p>
+                <p class="card-text">
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        </div>
+        <div class="tab-pane fade" id="grid-view0" role="tabpanel" aria-labelledby="grid-view-tab0">
+                
+      
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://thearchitecturedesigns.com/wp-content/uploads/2019/09/helloween-office9.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">Team Q3 Lunch: Haloween 🎃</h5>
+                  <p class="card-text">Spooky bloody themed lunch. Brain buffet starts at midnight GMT+8 and will last until sunrise.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://content.tui.co.uk/adamtui/2022_4/7_10/7925990f-b3dd-46d6-82ee-ae7000aa8ef8/LOC_000373_shutterstock_2080319242WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">2023 Barcelona Company Trip <span class="badge badge-info rounded-pill">Updated 1.9.2023</span>
+                  </h5>
+                  <p class="card-text">Once in a year opportunity. All expenses paid! Book seats for you and ALL your loved ones.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://image.shutterstock.com/image-photo/closeup-asian-female-worker-cleaning-260nw-2192911347.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">Gotong Royong with CDO</h5>
+                  <p class="card-text">CDO invites everyone to join a <i>gotong-royong</i> session at Averis Tower 2 @ KL office.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://thearchitecturedesigns.com/wp-content/uploads/2019/09/helloween-office9.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">Team Q3 Lunch: Haloween 🎃</h5>
+                  <p class="card-text">Spooky bloody themed lunch. Brain buffet starts at midnight GMT+8 and will last until sunrise.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://image.shutterstock.com/image-photo/closeup-asian-female-worker-cleaning-260nw-2192911347.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">Gotong Royong with CDO</h5>
+                  <p class="card-text">CDO invites everyone to join a <i>gotong-royong</i> session at Averis Tower 2 @ KL office.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://content.tui.co.uk/adamtui/2022_4/7_10/7925990f-b3dd-46d6-82ee-ae7000aa8ef8/LOC_000373_shutterstock_2080319242WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">2023 Barcelona Company Trip <span class="badge badge-info rounded-pill">Updated 1.9.2023</span>
+                  </h5>
+                  <p class="card-text">Once in a year opportunity. All expenses paid! Book seats for you and ALL your loved ones.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Spreading their wings!</h5>
-          <p class="card-text">
-            <img
-                src="img/rge55/abhishek.png"
-                alt=""
-                style="width: 45px; height: 45px"
-                class="rounded-circle"
-                />
-                <img
-                    src="img/rge55/abhishek.png"
-                    alt=""
-                    style="width: 45px; height: 45px"
-                    class="rounded-circle"
-                    />
-                    <img
-                        src="img/rge55/abhishek.png"
-                        alt=""
-                        style="width: 45px; height: 45px"
-                        class="rounded-circle"
-                        />
-          </p>
-          <a href="#" class="btn btn-primary">Say bye in Lark</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
     <div class="container-fluid bg-light py-5">
       <div class="container">
-      <h2 id="employee-guidebook">Employee Guidebook</h2>
-      <div class="card">
-        <div class="card-header">
-      <!-- Tabs navs -->
-<ul class="nav nav-pills nav-justified mb-3 bg-white" id="ex1" role="tablist">
-  <li class="nav-item" role="presentation">
-    <a
-      class="nav-link active"
-      id="ex3-tab-1"
-      data-mdb-toggle="tab"
-      href="#ex3-tabs-1"
-      role="tab"
-      aria-controls="ex3-tabs-1"
-      aria-selected="true"
-      >Business Trip 101</a
-    >
-  </li>
-  <li class="nav-item" role="presentation">
-    <a
-      class="nav-link"
-      id="ex3-tab-2"
-      data-mdb-toggle="tab"
-      href="#ex3-tabs-2"
-      role="tab"
-      aria-controls="ex3-tabs-2"
-      aria-selected="false"
-      >Team Lunch 101</a
-    >
-  </li>
-  <li class="nav-item" role="presentation">
-    <a
-      class="nav-link"
-      id="ex3-tab-3"
-      data-mdb-toggle="tab"
-      href="#ex3-tabs-3"
-      role="tab"
-      aria-controls="ex3-tabs-3"
-      aria-selected="false"
-      >Claims 101</a
-    >
-  </li>
-  <li class="nav-item" role="presentation">
-    <a
-      class="nav-link"
-      id="ex3-tab-4"
-      data-mdb-toggle="tab"
-      href="#ex3-tabs-4"
-      role="tab"
-      aria-controls="ex3-tabs-4"
-      aria-selected="false"
-      >Terms Glossary</a
-    >
-  </li>
-  <li class="nav-item" role="presentation">
-    <a
-      class="nav-link"
-      id="ex3-tab-5"
-      data-mdb-toggle="tab"
-      href="#ex3-tabs-5"
-      role="tab"
-      aria-controls="ex3-tabs-5"
-      aria-selected="false"
-      >Company Email 101</a
-    >
-  </li>
-</ul>
-</div>
-<!-- Tabs navs -->
-<div class="card-body">
-<!-- Tabs content -->
-<div class="tab-content" id="ex2-content">
-  <div
-    class="tab-pane fade show active"
-    id="ex3-tabs-1"
-    role="tabpanel"
-    aria-labelledby="ex3-tab-1"
-  >
-    Business Trip 101
-  </div>
-  <div
-    class="tab-pane fade"
-    id="ex3-tabs-2"
-    role="tabpanel"
-    aria-labelledby="ex3-tab-2"
-  >
-  Team Lunch 101
-  </div>
-  <div
-    class="tab-pane fade"
-    id="ex3-tabs-3"
-    role="tabpanel"
-    aria-labelledby="ex3-tab-3"
-  >
-  Claims 101
-  </div>
-  <div
-    class="tab-pane fade"
-    id="ex3-tabs-4"
-    role="tabpanel"
-    aria-labelledby="ex3-tab-4"
-  >
-  Terms Glossary
-  </div>
-  <div
-    class="tab-pane fade"
-    id="ex3-tabs-5"
-    role="tabpanel"
-    aria-labelledby="ex3-tab-5"
-  >
-    Company Email 101
-  </div>
-</div>
-<!-- Tabs content -->
-</div>
-</div>
-</div>
+        <h2 id="employee-guidebook">Employee Guidebook</h2>
+        <div class="card">
+          <div class="card-header">
+        <!-- Tabs navs -->
+        <ul class="nav nav-pills nav-justified mb-3 bg-white" id="ex1" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a
+        class="nav-link active"
+        id="ex3-tab-1"
+        data-mdb-toggle="tab"
+        href="#ex3-tabs-1"
+        role="tab"
+        aria-controls="ex3-tabs-1"
+        aria-selected="true"
+        >Business Trip 101</a
+      >
+    </li>
+    <li class="nav-item" role="presentation">
+      <a
+        class="nav-link"
+        id="ex3-tab-2"
+        data-mdb-toggle="tab"
+        href="#ex3-tabs-2"
+        role="tab"
+        aria-controls="ex3-tabs-2"
+        aria-selected="false"
+        >Team Lunch 101</a
+      >
+    </li>
+    <li class="nav-item" role="presentation">
+      <a
+        class="nav-link"
+        id="ex3-tab-3"
+        data-mdb-toggle="tab"
+        href="#ex3-tabs-3"
+        role="tab"
+        aria-controls="ex3-tabs-3"
+        aria-selected="false"
+        >Claims 101</a
+      >
+    </li>
+    <li class="nav-item" role="presentation">
+      <a
+        class="nav-link"
+        id="ex3-tab-4"
+        data-mdb-toggle="tab"
+        href="#ex3-tabs-4"
+        role="tab"
+        aria-controls="ex3-tabs-4"
+        aria-selected="false"
+        >Onboarding & Offboarding</a
+      >
+    </li>
+    <li class="nav-item" role="presentation">
+      <a
+        class="nav-link"
+        id="ex3-tab-5"
+        data-mdb-toggle="tab"
+        href="#ex3-tabs-5"
+        role="tab"
+        aria-controls="ex3-tabs-5"
+        aria-selected="false"
+        >Company Email 101</a
+      >
+    </li>
+        </ul>
+      </div>
+          <!-- Tabs navs -->
+          <div class="card-body">
+          <!-- Tabs content -->
+          <div class="tab-content" id="ex2-content">
+            <div
+              class="tab-pane fade show active"
+              id="ex3-tabs-1"
+              role="tabpanel"
+              aria-labelledby="ex3-tab-1"
+            >
+              <forum-component></forum-component>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ex3-tabs-2"
+              role="tabpanel"
+              aria-labelledby="ex3-tab-2"
+            >
+            <forum-component></forum-component>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ex3-tabs-3"
+              role="tabpanel"
+              aria-labelledby="ex3-tab-3"
+            >
+            <forum-component></forum-component>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ex3-tabs-4"
+              role="tabpanel"
+              aria-labelledby="ex3-tab-4"
+            >
+            <forum-component></forum-component>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ex3-tabs-5"
+              role="tabpanel"
+              aria-labelledby="ex3-tab-5"
+            >
+            <forum-component></forum-component>
+            </div>
+          </div>
+          <!-- Tabs content -->
+          </div>
+        </div>
+      </div>
     </div>
 
 
