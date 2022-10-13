@@ -72,6 +72,17 @@ class Forum extends HTMLElement {
               </div>
               <a href="#" class="forum-item-title">Paperworks After Travelling</a>
               <div class="forum-sub-title">A general guide on what could & should be done after returning from a business trips.</div>
+              <div class="d-flex align-items-center mt-3">
+                <small class="me-2">Popular:</small>
+                <button type="button" class="btn btn-rounded btn-sm btn-outline-primary me-2" href="#!">
+                  <i class="fas fa-comment-dots me-2"></i>
+                  Here's a list of contact person...
+                </button>
+                <button type="button" class="btn btn-rounded btn-sm btn-outline-primary me-2" href="#!">
+                  <i class="fas fa-file-pdf me-2"></i>
+                  Covid-19 Self Check Guide.pdf
+                </button>
+              </div>
             </div>
             <div class="col-md-1 forum-info">
               <span class="views-number">
