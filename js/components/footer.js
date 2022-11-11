@@ -50,7 +50,7 @@ class Footer extends HTMLElement {
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <!-- Content -->
                 <h6 class="text-uppercase fw-bold mb-4">
-                  <img src="img/ace-portal-logo.svg" alt="ACE Portal logo">
+                  <img src="/img/ace-portal-logo.svg" alt="ACE Portal logo">
                 </h6>
                 <p>
                   ACE Portal is developed and maintained by ACE Digital. For feedbacks or inquiries, please contact support@aceresources.biz
@@ -62,31 +62,16 @@ class Footer extends HTMLElement {
               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <!-- Links -->
                 <p>
-                  <a href="index.html" class="text-reset">Home</a>
+                  <a href="/index.html" class="text-reset">Home</a>
                 </p>
                 <p>
-                  <a href="rge55.html" class="text-reset">RGE55</a>
+                  <a href="/events.html" class="text-reset">Events</a>
                 </p>
                 <p>
-                  <a href="hackathon2023.html" class="text-reset">Hackathon 2023</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  <a href="employee-engagement.html" class="text-reset">Employee Engagement</a>
-                </h6>
-                <p>
-                  <a href="employee-engagement.html#activities-calendar" class="text-reset">Activities Calendar</a>
+                  <a href="/events/rge55.html" class="text-reset">RGE55</a>
                 </p>
                 <p>
-                  <a href="employee-engagement.html#onboarding-offboarding" class="text-reset">Onboarding & Offboarding</a>
-                </p>
-                <p>
-                  <a href="employee-engagement.html#employee-guidebook" class="text-reset">Guidebook</a>
+                  <a href="/events/hackathon2023.html" class="text-reset">Hackathon 2023</a>
                 </p>
               </div>
               <!-- Grid column -->
@@ -95,16 +80,34 @@ class Footer extends HTMLElement {
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <!-- Links -->
                 <h6 class="text-uppercase fw-bold mb-4">
-                  <a href="human-resource.html" class="text-reset">Human Resource</a>
+                  <a href="/employee-engagement.html" class="text-reset">Employee Engagement</a>
                 </h6>
                 <p>
-                  <a href="human-resource.html#staff-directory" class="text-reset">Staff Directory</a>
+                  <a href="/employee-engagement/activities-calendar.html" class="text-reset">Activities Calendar</a>
                 </p>
                 <p>
-                  <a href="human-resource.html#seat-map" class="text-reset">Seat Map</a>
+                  <a href="/employee-engagement/onboarding-offboarding.html" class="text-reset">Onboarding & Offboarding</a>
                 </p>
                 <p>
-                  <a href="human-resource.html#hiring-resignation-update" class="text-reset">Hiring & Resignation Updates</a>
+                  <a href="/employee-engagement/employee-guidebook.html" class="text-reset">Guidebook</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <a href="/human-resource.html" class="text-reset">Human Resource</a>
+                </h6>
+                <p>
+                  <a href="/human-resource/staff-directory.html" class="text-reset">Staff Directory</a>
+                </p>
+                <p>
+                  <a href="/human-resource/seat-map.html" class="text-reset">Seat Map</a>
+                </p>
+                <p>
+                  <a href="/human-resource/hiring-resignation-update.html" class="text-reset">Hiring & Resignation Updates</a>
                 </p>
               </div>
               <!-- Grid column -->
@@ -116,13 +119,13 @@ class Footer extends HTMLElement {
                   <a href="patent-filing.html" class="text-reset">Patent Filing</a>
                 </h6>
                 <p>
-                  <a href="patent-filing.html#introduction" class="text-reset">Introduction to Patent Filing</a>
+                  <a href="/patent-filing/introduction.html" class="text-reset">Introduction to Patent Filing</a>
                 </p>
                 <p>
-                  <a href="patent-filing.html#eligibility-criteria" class="text-reset">Eligibility criteria</a>
+                  <a href="/patent-filing/eligibility-criteria.html" class="text-reset">Eligibility criteria</a>
                 </p>
                 <p>
-                  <a href="patent-filing.html#winners-list" class="text-reset">Winners list</a>
+                  <a href="/patent-filing/winners-list.html" class="text-reset">Winners list</a>
                 </p>
               </div>
               <!-- Grid column -->

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Staff Directory - Human Resource | ACE Portal</title>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="/img/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="ACE Portal">
+    <link rel="apple-touch-icon-precomposed" href="/img/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/img/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="/img/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto & Ubuntu-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <!-- MDB -->
+    <link rel="stylesheet" href="/css/mdb.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Custom Components -->
+    <script src="/js/components/navbar.js" type="text/javascript" defer></script>
+    <script src="/js/components/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <!-- Start your project here-->
+
+    <header>
+      <!-- Navbar -->
+      <navbar-component></navbar-component>
+        <!-- Navbar -->
+  
+    <!-- Jumbotron -->
+    <div class="p-5 bg-primary text-white">
+      <h2 class="mb-3">Staff Directory</h2>
+      <h4 class="mb-3">Human Resource</h4>
+      <div class="datatable"></div>
+    </div>
+    <!-- Jumbotron -->
+    </header>
+
+
+    <div class="container py-5">
+      <h2 id="staff-directory">Staff Directory</h2>
+      <p>Permanent, Term Hire, Contractual, MA, Interns</p>
+      <div class="card overflow-x-scroll">
+        <div class="card-header justify-content-end">
+
+          <form class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+              <label class="visually-hidden" for="inlineFormInputGroupUsername">Name or email</label>
+              <div class="input-group">
+                <div class="input-group-text"><i class="fas fa-search"></i></div>
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Name or email" />
+              </div>
+            </div>
+          
+            <div class="col-12">
+              <label class="visually-hidden" for="inlineFormSelectPref">Location</label>
+              <select class=" form-control select">
+                <option value="All locations">All locations</option>
+                <option value="KL Office">KL Office</option>
+                <option value="India ODC">India ODC</option>
+                <option value="Indonesia ODC">Indonesia ODC</option>
+                <option value="China">China</option>
+                <option value="Brazil">Brazil</option>
+              </select>
+            </div>
+          
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="inlineFormCheck" />
+                <label class="form-check-label" for="inlineFormCheck">
+                  Include externals
+                </label>
+              </div>
+            </div>
+          
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Filter</button>
+            </div>
+          </form>
+        </div>
+        <table class="table align-middle mb-0 bg-white table-sm">
+          <thead class="bg-light">
+            <tr>
+              <th>Name</th>
+              <th>Title</th>
+              <th>Status</th>
+              <th>Location</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          <tr>
+            <td>
+              <div class="d-flex align-items-center">
+                <img
+                    src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                    alt=""
+                    style="width: 45px; height: 45px"
+                    class="rounded-circle"
+                    />
+                <div class="ms-3">
+                  <p class="fw-bold mb-1">Rudzainy Rahman</p>
+                  <p class="text-muted mb-0">Mohd Rudzainy bin Abdul Rahman</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="fw-normal mb-1">UX Designer</p>
+              <p class="text-muted mb-0">UIUX</p>
+            </td>
+            <td>
+              <span class="badge badge-success rounded-pill d-inline">In office</span>
+            </td>
+            <td>Kuala Lumpur</td>
+            <td>
+              <button type="button" class="btn btn-link btn-sm btn-rounded">
+                Message in Lark
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center">
+                <img
+                    src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+                    class="rounded-circle"
+                    alt=""
+                    style="width: 45px; height: 45px"
+                    />
+                <div class="ms-3">
+                  <p class="fw-bold mb-1">Tom Cruise</p>
+                  <p class="text-muted mb-0">Tom Tak Kurus</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <p class="fw-normal mb-1">IMF Agent</p>
+              <p class="text-muted mb-0">Field</p>
+            </td>
+            <td>
+              <span class="badge badge-primary rounded-pill d-inline"
+                    >Unknown</span
+                >
+            </td>
+            <td>Junior</td>
+            <td>
+              <button
+                      type="button"
+                      class="btn btn-link btn-rounded btn-sm fw-bold"
+                      data-mdb-ripple-color="dark"
+                      >
+                Message in Lark
+              </button>
+              <button
+                      type="button"
+                      class="btn btn-link btn-rounded btn-sm fw-bold"
+                      data-mdb-ripple-color="dark"
+                      >
+                Email
+              </button>
+            </td>
+          </tr>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img
+                      src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                      alt=""
+                      style="width: 45px; height: 45px"
+                      class="rounded-circle"
+                      />
+                  <div class="ms-3">
+                    <p class="fw-bold mb-1">John Doe</p>
+                    <p class="text-muted mb-0">john.doe@aceresource.biz</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <p class="fw-normal mb-1">Software engineer</p>
+                <p class="text-muted mb-0">IT department</p>
+              </td>
+              <td>
+                <span class="badge badge-success rounded-pill d-inline">On Leave</span>
+              </td>
+              <td>Senior</td>
+              <td>
+                <button type="button" class="btn btn-link btn-sm btn-rounded">
+                  View more
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img
+                      src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+                      class="rounded-circle"
+                      alt=""
+                      style="width: 45px; height: 45px"
+                      />
+                  <div class="ms-3">
+                    <p class="fw-bold mb-1">Alex Ray</p>
+                    <p class="text-muted mb-0">alex.ray@aceresource.biz</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <p class="fw-normal mb-1">Consultant</p>
+                <p class="text-muted mb-0">Finance</p>
+              </td>
+              <td>
+                <span class="badge badge-primary rounded-pill d-inline"
+                      >In Office</span
+                  >
+              </td>
+              <td>Junior</td>
+              <td>
+                <button
+                        type="button"
+                        class="btn btn-link btn-rounded btn-sm fw-bold"
+                        data-mdb-ripple-color="dark"
+                        >
+                  View more
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img
+                      src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                      class="rounded-circle"
+                      alt=""
+                      style="width: 45px; height: 45px"
+                      />
+                  <div class="ms-3">
+                    <p class="fw-bold mb-1">Kate Hunington</p>
+                    <p class="text-muted mb-0">kate.hunington@aceresource.biz</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <p class="fw-normal mb-1">Designer</p>
+                <p class="text-muted mb-0">UI/UX</p>
+              </td>
+              <td>
+                <span class="badge badge-warning rounded-pill d-inline">On Leave</span>
+              </td>
+              <td>Senior</td>
+              <td>
+                <button
+                        type="button"
+                        class="btn btn-link btn-rounded btn-sm fw-bold"
+                        data-mdb-ripple-color="dark"
+                        >
+                  View more
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="card-footer">
+        <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2 <span class="visually-hidden">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+<div class="container py-5">
+  <h2 id="hiring-resignation-update">Hiring & Resigntion Updates</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Just came on board!</h5>
+          <p class="card-text">
+            
+            <img
+                src="/img/rge55/abhishek.png"
+                alt=""
+                style="width: 45px; height: 45px"
+                class="rounded-circle"
+                />
+                <img
+                    src="/img/rge55/abhishek.png"
+                    alt=""
+                    style="width: 45px; height: 45px"
+                    class="rounded-circle"
+                    />
+                    <img
+                        src="/img/rge55/abhishek.png"
+                        alt=""
+                        style="width: 45px; height: 45px"
+                        class="rounded-circle"
+                        />
+                        <img
+                            src="/img/rge55/abhishek.png"
+                            alt=""
+                            style="width: 45px; height: 45px"
+                            class="rounded-circle"
+                            />
+                            <img
+                                src="/img/rge55/abhishek.png"
+                                alt=""
+                                style="width: 45px; height: 45px"
+                                class="rounded-circle"
+                                />
+          </p>
+          <a href="#" class="btn btn-primary">Say hi in Lark</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Spreading their wings!</h5>
+          <p class="card-text">
+            <img
+                src="/img/rge55/abhishek.png"
+                alt=""
+                style="width: 45px; height: 45px"
+                class="rounded-circle"
+                />
+                <img
+                    src="/img/rge55/abhishek.png"
+                    alt=""
+                    style="width: 45px; height: 45px"
+                    class="rounded-circle"
+                    />
+                    <img
+                        src="/img/rge55/abhishek.png"
+                        alt=""
+                        style="width: 45px; height: 45px"
+                        class="rounded-circle"
+                        />
+          </p>
+          <a href="#" class="btn btn-primary">Say bye in Lark</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer-component></footer-component>
+<!-- Footer -->
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>

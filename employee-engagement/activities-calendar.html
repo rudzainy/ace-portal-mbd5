@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Activities Calendar - Employee Engagement | ACE Portal</title>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="/img/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="ACE Portal">
+    <link rel="apple-touch-icon-precomposed" href="/img/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/img/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="/img/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto & Ubuntu-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <!-- MDB -->
+    <link rel="stylesheet" href="/css/mdb.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Custom Components -->
+    <script src="/js/components/navbar.js" type="text/javascript" defer></script>
+    <script src="/js/components/forum.js" type="text/javascript" defer></script>
+    <script src="/js/components/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <!-- Start your project here-->
+
+    <header>
+      <navbar-component></navbar-component>
+  
+      <!-- Jumbotron -->
+      <div class="p-5 bg-primary text-white">
+        <h1 class="mb-3">Activities Calendar</h1>
+        <h4 class="mb-3">Employee Engagement</h4>
+        <div class="datatable"></div>
+      </div>
+      <!-- Jumbotron -->
+    </header>
+
+    <div class="container py-5">
+      <h2 id="activities-calendar">Activities Calendar</h2>
+      <p>Here is where I will place a catchy subtext to continue subtly direct user's eye movement towards contents below the H2 subtitle above.</p>
+      
+      <!-- Tab View Start -->
+      <!-- Tab Toggle Buttons Start -->
+      <ul class="nav nav-tabs mb-3 flex-row-reverse" id="myTab0" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="list-view-tab0"
+            data-mdb-toggle="tab"
+            data-mdb-target="#list-view0"
+            type="button"
+            role="tab"
+            aria-controls="list-view"
+            aria-selected="false"
+          >
+            <i class="fas fa-lg fa-list"></i>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="grid-view-tab0"
+            data-mdb-toggle="tab"
+            data-mdb-target="#grid-view0"
+            type="button"
+            role="tab"
+            aria-controls="grid-view"
+            aria-selected="true"
+          >
+            <i class="fas fa-lg fa-border-all"></i>
+          </button>
+        </li>
+      </ul>
+      <!-- Tab Toggle Buttons End -->
+      <h3 class="mb-3">Upcoming Events</h3>
+      <!-- Tab List View Start -->
+      <div class="tab-content" id="myTabContent0">
+        <div
+          class="tab-pane fade"
+          id="list-view0"
+          role="tabpanel"
+          aria-labelledby="list-view-tab0"
+        >
+
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img
+                  src="https://thearchitecturedesigns.com/wp-content/uploads/2019/09/helloween-office9.jpg"
+                  alt="Trendy Pants and Shoes"
+                  class="img-fluid rounded-start"
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">Team Q3 Lunch: Haloween 🎃</h5>
+                  <p class="card-text">
+                    Spooky bloody themed lunch. Brain buffet starts at midnight GMT+8 and will last until sunrise.
+                  </p>
+                  <p class="card-text">
+                    <a href="#!" class="btn btn-primary">Read more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img
+                  src="https://content.tui.co.uk/adamtui/2022_4/7_10/7925990f-b3dd-46d6-82ee-ae7000aa8ef8/LOC_000373_shutterstock_2080319242WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)"
+                  alt="Trendy Pants and Shoes"
+                  class="img-fluid rounded-start"
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">2023 Barcelona Company Trip <span class="badge badge-info rounded-pill">Updated 1.9.2023</span></h5>
+                  <p class="card-text">
+                    Once in a year opportunity. All expenses paid! Book seats for you and ALL your loved ones.
+                  </p>
+                  <p class="card-text">
+                    <a href="#!" class="btn btn-primary">Read more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img
+                  src="https://image.shutterstock.com/image-photo/closeup-asian-female-worker-cleaning-260nw-2192911347.jpg"
+                  alt="Trendy Pants and Shoes"
+                  class="img-fluid rounded-start"
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">Gotong Royong with CDO</h5>
+                  <p class="card-text">
+                    CDO invites everyone to join a <i>gotong-royong</i> session at Averis Tower 2 @ KL office.
+                  </p>
+                  <p class="card-text">
+                    <a href="#!" class="btn btn-primary">Read more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img
+                  src="https://thearchitecturedesigns.com/wp-content/uploads/2019/09/helloween-office9.jpg"
+                  alt="Trendy Pants and Shoes"
+                  class="img-fluid rounded-start"
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">Team Q3 Lunch: Haloween 🎃</h5>
+                  <p class="card-text">
+                    Spooky bloody themed lunch. Brain buffet starts at midnight GMT+8 and will last until sunrise.
+                  </p>
+                  <p class="card-text">
+                    <a href="#!" class="btn btn-primary">Read more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img
+                  src="https://content.tui.co.uk/adamtui/2022_4/7_10/7925990f-b3dd-46d6-82ee-ae7000aa8ef8/LOC_000373_shutterstock_2080319242WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)"
+                  alt="Trendy Pants and Shoes"
+                  class="img-fluid rounded-start"
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">2023 Barcelona Company Trip <span class="badge badge-info rounded-pill">Updated 1.9.2023</span></h5>
+                  <p class="card-text">
+                    Once in a year opportunity. All expenses paid! Book seats for you and ALL your loved ones.
+                  </p>
+                  <p class="card-text">
+                    <a href="#!" class="btn btn-primary">Read more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img
+                  src="https://image.shutterstock.com/image-photo/closeup-asian-female-worker-cleaning-260nw-2192911347.jpg"
+                  alt="Trendy Pants and Shoes"
+                  class="img-fluid rounded-start"
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">Gotong Royong with CDO</h5>
+                  <p class="card-text">
+                    CDO invites everyone to join a <i>gotong-royong</i> session at Averis Tower 2 @ KL office.
+                  </p>
+                  <p class="card-text">
+                    <a href="#!" class="btn btn-primary">Read more</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tab List View End -->
+        <!-- Grid List View Start -->
+        <div class="tab-pane fade show active" id="grid-view0" role="tabpanel" aria-labelledby="grid-view-tab0">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://thearchitecturedesigns.com/wp-content/uploads/2019/09/helloween-office9.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">Team Q3 Lunch: Haloween 🎃</h5>
+                  <p class="card-text">Spooky bloody themed lunch. Brain buffet starts at midnight GMT+8 and will last until sunrise.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://content.tui.co.uk/adamtui/2022_4/7_10/7925990f-b3dd-46d6-82ee-ae7000aa8ef8/LOC_000373_shutterstock_2080319242WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">2023 Barcelona Company Trip <span class="badge badge-info rounded-pill">Updated 1.9.2023</span>
+                  </h5>
+                  <p class="card-text">Once in a year opportunity. All expenses paid! Book seats for you and ALL your loved ones.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://image.shutterstock.com/image-photo/closeup-asian-female-worker-cleaning-260nw-2192911347.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">Gotong Royong with CDO</h5>
+                  <p class="card-text">CDO invites everyone to join a <i>gotong-royong</i> session at Averis Tower 2 @ KL office.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://thearchitecturedesigns.com/wp-content/uploads/2019/09/helloween-office9.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">Team Q3 Lunch: Haloween 🎃</h5>
+                  <p class="card-text">Spooky bloody themed lunch. Brain buffet starts at midnight GMT+8 and will last until sunrise.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://image.shutterstock.com/image-photo/closeup-asian-female-worker-cleaning-260nw-2192911347.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">Gotong Royong with CDO</h5>
+                  <p class="card-text">CDO invites everyone to join a <i>gotong-royong</i> session at Averis Tower 2 @ KL office.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img src="https://content.tui.co.uk/adamtui/2022_4/7_10/7925990f-b3dd-46d6-82ee-ae7000aa8ef8/LOC_000373_shutterstock_2080319242WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)" class="card-img-top" alt="Fissure in Sandstone"/>
+                <div class="card-body">
+                  <h5 class="card-title">2023 Barcelona Company Trip <span class="badge badge-info rounded-pill">Updated 1.9.2023</span>
+                  </h5>
+                  <p class="card-text">Once in a year opportunity. All expenses paid! Book seats for you and ALL your loved ones.</p>
+                  <a href="#!" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Grid List View End -->
+        <!-- Tab View End -->
+      </div>
+    </div>
+
+    <div class="container py-3">
+      <h3>Past Activities</h3>
+      <table class="table align-middle mb-0 bg-white">
+        <thead class="bg-light">
+          <tr>
+            <th>Date</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p class="">31 October 2022</p>
+            </td>
+            <td>
+              <p class="fw-normal mb-1">Bowling Tournament</p>
+            </td>
+            <td>Kuala Lumpur</td>
+            <td>
+              <button type="button" class="btn btn-link btn-sm btn-rounded">
+                View LinkedIn Post
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="">31 October 2022</p>
+            </td>
+            <td>
+              <p class="fw-normal mb-1">ACERAS Annual Dinner 2022</p>
+            </td>
+            </td>
+            <td>Junior</td>
+            <td>
+              <button
+                      type="button"
+                      class="btn btn-link btn-rounded btn-sm fw-bold"
+                      data-mdb-ripple-color="dark"
+                      >
+                View in OpenProject
+              </button>
+              <button
+                      type="button"
+                      class="btn btn-link btn-rounded btn-sm fw-bold"
+                      data-mdb-ripple-color="dark"
+                      >
+                      View LinkedIn Post
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="">31 October 2022</p>
+            </td>
+            <td>
+              <p class="fw-normal mb-1">Bracell Workshop</p>
+            </td>
+            <td>São Paulo</td>
+            <td>
+              <button
+                      type="button"
+                      class="btn btn-link btn-rounded btn-sm fw-bold"
+                      data-mdb-ripple-color="dark"
+                      >
+                      View LinkedIn Post
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <!-- Footer -->
+    <footer-component></footer-component>
+    <!-- Footer -->
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>

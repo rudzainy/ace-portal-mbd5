@@ -27,9 +27,9 @@ class Navbar extends HTMLElement {
             <!-- Collapsible wrapper -->
             <div class="collapse navbar-collapse" id="topNavbarContent">
               <!-- Navbar brand -->
-              <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+              <a class="navbar-brand mt-2 mt-lg-0" href="/index.html">
                 <img
-                  src="img/ace-portal-logo.svg"
+                  src="/img/ace-portal-logo.svg"
                   height="30"
                   alt="ACE Portal Logo"
                   loading="lazy"
@@ -40,12 +40,12 @@ class Navbar extends HTMLElement {
 
 
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle hidden-arrow"
-                    href="employee-engagement.html"
+                    href="/employee-engagement.html"
                     id="employeeEngagementDropdownMenuLink"
                     role="button"
                     data-mdb-toggle="dropdown"
@@ -55,10 +55,10 @@ class Navbar extends HTMLElement {
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="employeeEngagementDropdownMenuLink">
                     <li>
-                      <a class="dropdown-item" href="employee-engagement.html">Activities Calendar</a>
+                      <a class="dropdown-item" href="/employee-engagement/activities-calendar.html">Activities Calendar</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="employee-engagement.html">Employee Guidebook</a>
+                      <a class="dropdown-item" href="/employee-engagement/employee-guidebook.html">Employee Guidebook</a>
                     </li>
                   </ul>
                 </li>
@@ -68,7 +68,7 @@ class Navbar extends HTMLElement {
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle hidden-arrow"
-                    href="human-resource.html"
+                    href="/human-resource.html"
                     id="humanResourceDropdownMenuLink"
                     role="button"
                     data-mdb-toggle="dropdown"
@@ -78,20 +78,20 @@ class Navbar extends HTMLElement {
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="humanResourceDropdownMenuLink">
                     <li>
-                      <a class="dropdown-item" href="human-resource.html">Staff Directory</a>
+                      <a class="dropdown-item" href="/human-resource/staff-directory.html">Staff Directory</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="human-resource.html">Seat Map</a>
+                      <a class="dropdown-item" href="/human-resource/seat-map.html">Seat Map</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="human-resource.html">Hiring & Resigntion Updates</a>
+                      <a class="dropdown-item" href="/human-resource.html">Hiring & Resigntion Updates</a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle hidden-arrow"
-                    href="patent-filing.html"
+                    href="/patent-filing.html"
                     id="patentFilingDropdownMenuLink"
                     role="button"
                     data-mdb-toggle="dropdown"
@@ -101,13 +101,13 @@ class Navbar extends HTMLElement {
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="patentFilingDropdownMenuLink">
                     <li>
-                      <a class="dropdown-item" href="patent-filing.html">Introduction to Patent Filing</a>
+                      <a class="dropdown-item" href="/patent-filing/introduction.html">Introduction to Patent Filing</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="patent-filing.html">Eligibility Criteria</a>
+                      <a class="dropdown-item" href="/patent-filing.html">Eligibility Criteria</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="patent-filing.html">Winners List</a>
+                      <a class="dropdown-item" href="/patent-filing.html">Winners List</a>
                     </li>
                   </ul>
                 </li>
@@ -123,16 +123,21 @@ class Navbar extends HTMLElement {
                     Events
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="eventsDropdownMenuLink">
-                    <li>
-                      <a class="dropdown-item" href="rge55.html">RGE55</a>
-                    </li>
+                  <li>
+                    <a class="dropdown-item" href="/events.html">All events</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><h6 class="dropdown-header">Highlights</h6></li>
+                  <li>
+                    <a class="dropdown-item" href="/events/rge55.html">RGE55</a>
+                  </li>
                     <li><hr class="dropdown-divider" /></li>
                     <li><h6 class="dropdown-header">Hackathons</h6></li>
                     <li>
-                      <a class="dropdown-item" href="hackathon2023.html">RGE Hackathon 2022</a>
+                      <a class="dropdown-item" href="/events/hackathon2023.html">RGE Hackathon 2022</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="hackathon2023.html">RGE Hackathon 2023</a>
+                      <a class="dropdown-item" href="/events/hackathon2023.html">RGE Hackathon 2023</a>
                     </li>
                   </ul>
                 </li>
