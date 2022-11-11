@@ -8,7 +8,7 @@ class Navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <!-- Container wrapper -->
           <div class="container-fluid">
             <!-- Toggle button -->
@@ -39,9 +39,12 @@ class Navbar extends HTMLElement {
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 
-                <li class="nav-item">
-                  <a class="nav-link" href="/index.html">Home</a>
-                </li>
+              <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Dashboard.html">Dashboard</a>
+            </li>
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle hidden-arrow"

@@ -67,10 +67,10 @@ class Footer extends HTMLElement {
                 <p>
                   <a href="/events.html" class="text-reset">Events</a>
                 </p>
-                <p>
+                <p class="text-danger">
                   <a href="/events/rge55.html" class="text-reset">RGE55</a>
                 </p>
-                <p>
+                <p class="text-warning">
                   <a href="/events/hackathon2023.html" class="text-reset">Hackathon 2023</a>
                 </p>
               </div>

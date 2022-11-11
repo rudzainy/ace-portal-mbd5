@@ -1,0 +1,24 @@
+{
+  "staffList": [
+    {
+      "firstName": "Rudzainy",
+      "lastName": "Rahman",
+      "fullName": "Mohd Rudzainy bin Abdul Rahman",
+      "title": "UX Designer",
+      "department": "UIUX",
+      "location": "Kuala Lumpur",
+      "email": "rudzainy_rahman@aceresource.biz",
+      "photo": "/img/rge55/abhishek.png"
+    },
+    {
+      "firstName": "Tom",
+      "lastName": "Cruise",
+      "fullName": "Tom Tak Kurus",
+      "title": "IMF Agent",
+      "department": "Field",
+      "location": "Unknown",
+      "email": "tom@cruise.com",
+      "photo": "/img/rge55/abhishek.png"
+    },
+  ]
+}
